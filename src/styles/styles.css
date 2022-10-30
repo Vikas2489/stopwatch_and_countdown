@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #222222;
+    margin: 0 auto;
+    font-family: monospace;
+}
+
+.upbtn {
+    margin: 0 15px;
+    border: solid 1px transparent;
+    border-radius: 2px;
+    padding: 4px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #202b33;
+}
+
+.countdown-time {
+    font-size: 36px;
+    margin: 5px 0;
+}
